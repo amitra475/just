@@ -1,0 +1,46 @@
+@media only screen and (max-width: 390px) {
+    header .left-header li {
+        font-size: 18px;
+        padding: 17px 5px;
+    }
+
+    .left-header {
+        font-size: 20px;
+        padding: 15px 0px;
+    }
+
+    .footer2 {
+        padding: 0 100px;
+    }
+}
+
+@media only screen and (min-width: 391px) and (max-width: 768px) {
+    header .left-header li {
+        font-size: 17px;
+        padding: 0 12px;
+    }
+
+    footer .footer1 {
+        padding: 28px 199px;
+        display: inline-block;
+        text-align: center;
+        margin: 0 192px;
+    }
+
+    footer .footer2 {
+        padding: 0 10px;
+        /* Padding ko mobile viewport ke liye kam kiya gaya hai */
+        text-align: center;
+        /* Text ko center me set kiya gaya hai */
+        display: block;
+        /* Display ko block me set kiya gaya hai */
+    }
+}
+
+/* @media only screen and (min-width: 769px) {} */
+
+
+/* @media only screen and (max-width: 428px) {}
+
+
+@media only screen and (max-width: 360px) {} */
